@@ -42,7 +42,7 @@
 > 
 > There's a few things that Discord uses that I'll be touching for the first time, e.g. Elixir (which supports highly-scalable management of concurrent users). I'll try to gain some basic familiarity with it, and then work on a more complex understanding as I go.
 >
-> For the frontend, I'll likely be using lanterna (a java text-based GUI framework), mostly just because I like how it looks & think it would be cool to have a chat app with modern features whose client can run on a GUI-less computer. However, it would also be limiting for any features past Phase 3 (or maybe earlier if my current basic understanding of it is incorrect).
+> For the frontend, I'll likely be using lanterna or jexer (java text-based GUI frameworks), mostly just because I like their respective clunky stylings. However, it would also may be limiting for certain advanced features.
 > 
 > Whatever I use, I want it to have a retro-style (although obviously I can also acheive that with css stylings in a modern web-client framework like React). 
 >
