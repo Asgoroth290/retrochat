@@ -38,4 +38,13 @@
 > If I ever get to this point, I'll either start optimizing for scaling (to the point that I can, given that actual scaling requires $$ after a certain point and this is not a project with $$), or just start adding more and more ~~discord~~ standard chat app features.
 
 ## Tech Stack
-> To an extent, I will be 
+> To an extent, I will be mirroring Discord's tech stack so that I can keep scalability in mind & more easily directly refer to the dev blog posts from Discord to develop a better understanding of the logic that goes into developing and scaling a chat application, like being run as a background process for notifications. 
+> 
+> There's a few things that Discord uses that I'll be touching for the first time, e.g. Elixir (which supports highly-scalable management of concurrent users). I'll try to gain some basic familiarity with it, and then work on a more complex understanding as I go.
+>
+> For the frontend, I'll likely be using lanterna (a java text-based GUI framework), mostly just because I like how it looks & think it would be cool to have a chat app with modern features whose client can run on a GUI-less computer. However, it would also be limiting for any features past Phase 3 (or maybe earlier if my current basic understanding of it is incorrect).
+> 
+> Whatever I use, I want it to have a retro-style (although obviously I can also acheive that with css stylings in a modern web-client framework like React). 
+>
+> The database will be done with MongoDB, mostly because I like MongoDB and also because the schema will be adapting across phases, which a schema-less NoSQL solution like Mongo is flexible with, along with supporting the horizontal scaling required for larget-scale chat applications.
+> -  While it is to my understanding that Mongo was not able to support Discord at the peak of its scaling, and that they eventually migrated from MongoDB to Cassandra, that is a late-term optimization (100 million stored messages!) that I don't need to focus on to acheive a cursory understanding of scalable chat applications.
