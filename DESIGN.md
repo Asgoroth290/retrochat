@@ -10,6 +10,18 @@
 > A lot of this project will be reverse-engineered features existing in contemporary large-scale chat applications (*cough* Discord *cough*).
 > This is purely an exploratory endeavor designed to help me familiarize myself with the logic and architecture of such an application. 
 
+## Unique Features
+> While this application is, of course, not seriously intended to truly compete in the current problem space, there may be some unique features that I flesh out as I explore this problem space. Many of these may never be implemented, but are just generally going to be some small piece of design that I think have *some* potential merit as improvements on (or simply alternative solutions to) what is offered by the current paradigm.
+> 
+> ### Potential Unique Features
+>> 1. **Standalone Features**: Features not intended on working towards building up any specific identity/use-case for the application. Will mostly lean towards casual use (i.e., mostly directed towards the same usecases as Discord).
+>>     1. **Conversations**: Currently, Discord has a few solutions to the problem of facilitating spontaneous conversation in a way that can be (relatively) easily filtered through after-the-fact.
+>
+>> 2. **Commercial Use**: Built-in functionality for project management and facilitating meetings (actually handling meeting facilitation would require voice-call functionality, which is massive scope creep. This would not really be possible early on). Essentially, would have the goal of replacing Slack because Slack sucks.
+>>     1. Built-in 
+>
+>> 3. **Secure**: There is no major E2EE group messaging application that has feature parity with Discord. Maybe I can do that? With no background in cyber security? idk, could be fun. wouldn't be rolling my own
+
 ## Project Progression
 > **Phase 1: Multi-user chatroom** 
 > 
