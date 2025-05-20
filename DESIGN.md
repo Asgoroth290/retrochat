@@ -15,10 +15,11 @@
 > 
 > ### Potential Unique Features
 >> 1. **Standalone Features**: Features not intended on working towards building up any specific identity/use-case for the application. Will mostly lean towards casual use (i.e., mostly directed towards the same usecases as Discord).
->>     1. **Conversations**: Currently, Discord has a few solutions to the problem of facilitating spontaneous conversation in a way that can be (relatively) easily filtered through after-the-fact.
+>>     1. **Conversations**: Currently, Discord has a few solutions to the problem of facilitating spontaneous conversation in a way that can be (relatively) easily browsed through after-the-fact to get up to speed on the conversation. Neither of them feel completely optimal as an end-user: Discord Replies are scattered and hard to browse through, while Threads in both Discord & Slack open up in a separate window that cuts off continuity from the conversation. I'd like to experiment with different UI concepts to work better with this.
 >
 >> 2. **Commercial Use**: Built-in functionality for project management and facilitating meetings (actually handling meeting facilitation would require voice-call functionality, which is massive scope creep. This would not really be possible early on). Essentially, would have the goal of replacing Slack because Slack sucks.
->>     1. Built-in 
+>>    1. **Built-in User Stories**
+>>    2. **Action Items**  
 >
 >> 3. **Secure**: There is no major E2EE group messaging application that has feature parity with Discord. Maybe I can do that? With no background in cyber security? idk, could be fun. wouldn't be rolling my own
 
