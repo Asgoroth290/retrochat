@@ -1,0 +1,22 @@
+{
+  "name": "retrochat-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asgoroth290/retrochat.git"
+  },
+  "author": "Jade Hogerhuis",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Asgoroth290/retrochat/issues"
+  },
+  "homepage": "https://github.com/Asgoroth290/retrochat#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  }
+}
