@@ -51,7 +51,7 @@
 > If I ever get to this point, I'll either start optimizing for scaling (to the point that I can, given that actual scaling requires $$ after a certain point and this is not a project with $$), or just start adding more and more ~~discord~~ standard chat app features.
 
 ## Tech Stack
-> To an extent, I will be mirroring Discord's tech stack so that I can keep scalability in mind & more easily directly refer to the dev blog posts from Discord to develop a better understanding of the logic that goes into developing and scaling a chat application, like being run as a background process for notifications. 
+> To an extent, I will be mirroring Discord's tech stack so that I can keep scalability in mind & more easily directly refer to the dev blog posts from Discord to develop a better understanding of the logic that goes into developing and scaling a chat application.
 > 
 > There's a few things that Discord uses that I'll be touching for the first time, e.g. Elixir (which supports highly-scalable management of concurrent users). I'll try to gain some basic familiarity with it, and then work on a more complex understanding as I go.
 >
