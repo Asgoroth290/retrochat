@@ -1,3 +1,4 @@
+// import '../App.css';
 import { FC, useCallback, useEffect, useState } from "react";
 import { Message } from "../Model/Message";
 import { Button, Card, List, Typography } from 'antd';
@@ -40,23 +41,23 @@ export const Chat: FC<ChatProps> = (props: ChatProps) => {
   }[readyState]
   return(
   <>
-    <Card>
-      <Header>status: {connectionStatus}</Header>
-    </Card>
-    <Button
-      type='primary'
-      onClick={() => clickSendMessage(messageToSend)}
-    >Send message to echoserver!</Button>
-    <List 
-      dataSource={messages}
-      renderItem={(message) => (
-        <List.Item>
-          <Typography.Text mark>
-            {message.sender.display_name}: 
-          </Typography.Text>
-          {message.content}
-        </List.Item>
-      )}
+    <Card 
+      title={"Status: " + connectionStatus}>
+      <Button
+        type='primary'
+        onClick={() => clickSendMessage(messageToSend)}
+      >Send message to echoserver!</Button>
+      <List 
+        dataSource={messages}
+        renderItem={(message) => (
+          <List.Item>
+            <Typography.Text mark>
+              {message.sender.display_name}: 
+            </Typography.Text>
+            {message.content}
+          </List.Item>
+        )}
     />
+    </Card>
   </>)
 }
